@@ -101,10 +101,10 @@ if submitted:
         st.pyplot(fig)
 
 # Instructions
-# st.sidebar.header("Instructions")
-# st.sidebar.write("""
-# 1. Enter the applicant's details in the form.
-# 2. Click 'Predict Eligibility' to see the result.
-# 3. The model predicts whether the applicant is eligible ('Y') or not ('N') for a loan.
-# 4. View the feature importance chart to understand key factors.
-# """)
+st.sidebar.header("Instructions")
+st.sidebar.write("""
+1. Enter the applicant's details in the form.
+2. Click 'Predict Eligibility' to see the result.
+3. The model predicts whether the applicant is eligible ('Y') or not ('N') for a loan.
+4. View the feature importance chart to understand key factors.
+""")
